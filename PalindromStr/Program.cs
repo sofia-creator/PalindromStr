@@ -9,12 +9,12 @@ namespace PalindromStr {
             string reverseStr = new string(sStr.ToCharArray().Reverse().ToArray());
             // Проверяет строку на равенство
             if (reverseStr.Equals(sStr)) {
-                Console.WriteLine("Строка является палиндромом");
+                Console.WriteLine("Строка является палиндромом"); // Вывод строки 
             }
             else {
-                Console.WriteLine("Строка не является палиндромом");
+                Console.WriteLine("Строка не является палиндромом"); // Вывод строки 
             }
-            Console.ReadKey();
+            Console.ReadKey(); // СЧитывание кнопки
         }
     }
 }
